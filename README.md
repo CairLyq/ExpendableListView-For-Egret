@@ -4,7 +4,7 @@ How to use
 
 
 ```
-class SampleView extends eui.Componment {
+class SampleView extends eui.Component {
 
     private _scroller: eui.Scroller;
     private _listView: ExpendableListView;
