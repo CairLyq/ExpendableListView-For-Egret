@@ -2,6 +2,10 @@
 
 How to use
 
+
+(```)
+
+
 class SampleView extends eui.Componment {
 
     private _scroller: eui.Scroller;
@@ -58,3 +62,6 @@ class ExItemRenderer extends ExpendableItemRenderer {
 class XXChildItemRenderer extends eui.ItemRenderer {
 
 }
+
+
+(```)
