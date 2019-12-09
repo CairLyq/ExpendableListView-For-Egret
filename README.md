@@ -2,8 +2,6 @@
 
 How to use
 
-<code>
-  
 class SampleView extends eui.Componment {
 
     private _scroller: eui.Scroller;
@@ -27,10 +25,10 @@ class SampleView extends eui.Componment {
         ]);
 
         listView.itemRenderer = ExItemRenderer;
-        listView.itemRendererSkinName = 'EqLegendInfoItemSkin';
+        listView.itemRendererSkinName = 'ExItemRendererSkin';
 
         listView.childProp = {
-            skinName: "XXXXXXItemSkin",
+            skinName: "XXChildItemRendererSkin",
             itemRenderer: XXChildItemRenderer,
             childDataKey: "childData",
             gap: 6,
@@ -58,7 +56,5 @@ class ExItemRenderer extends ExpendableItemRenderer {
 }
 
 class XXChildItemRenderer extends eui.ItemRenderer {
-//....
-}
 
-</code>
+}
