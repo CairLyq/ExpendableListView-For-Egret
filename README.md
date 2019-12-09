@@ -3,9 +3,7 @@
 How to use
 
 
-(```)
-
-
+```
 class SampleView extends eui.Componment {
 
     private _scroller: eui.Scroller;
@@ -44,7 +42,9 @@ class SampleView extends eui.Componment {
         }
     }
 }
+```
 
+```
 class ExItemRenderer extends ExpendableItemRenderer {
 
     private content: eui.Group;
@@ -58,10 +58,10 @@ class ExItemRenderer extends ExpendableItemRenderer {
         return true;
     }
 }
+```
 
+```
 class XXChildItemRenderer extends eui.ItemRenderer {
 
 }
-
-
-(```)
+```
